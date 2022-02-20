@@ -1,0 +1,129 @@
+ion-header {
+    background: #FFFFFF;
+  }
+  
+  ion-toolbar {
+    --background: #0036C0;
+    color: #FFFFFF;
+    border-radius: 0px 0px 6px 6px;
+  }
+  
+  ion-content {
+      --background: #DCDEE1;
+  }
+  
+  ion-grid {
+    margin-top: -3px;
+    text-align: center;
+    font-family: 'Ubuntu-Bold';
+    font-weight: bold;
+    background: #FFFFFF;
+    border-radius: 0px 0px 12px 12px;
+    ion-row:nth-child(1) {
+        margin-top: 14px;
+        b {
+          font-size: 15px;
+        }
+      ion-col:nth-child(1) {
+        font-size: 20px;
+        font-weight: 900px;
+        text-align: right;
+      }
+      ion-col:nth-child(3) {
+        font-size: 20px;
+        font-weight: 900px;
+        text-align: left;
+      }
+    }
+  
+    ion-row:nth-child(2) {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #4F4E4E;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    ion-row:nth-child(3) {
+      font-family: 'Ubuntu-Bold';
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 34px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    ion-row:nth-child(4) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+      ion-text {
+        border-radius: 18px;
+        border: solid 1px #DCDCDC;
+        background: #DCDCDC;
+        margin-top: 20px;
+        width: 90%;
+      }
+    }
+  
+    ion-row:nth-child(5) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 10px;
+      text-align: left;
+      .blocoA {
+          display: flex;
+          flex-direction: row;
+          justify-self: center;
+          ion-col {
+              margin-top: -14px;
+          }
+          img {
+              width: 50px;
+              height: 50px;
+              display: flex;
+          }
+          ion-text {
+              color: #73BD28;
+          }
+          ion-label {
+              font-size: 13px;
+              color: #A09D9D;
+          }
+      }
+      .blocoB {
+          display: flex;
+          flex-direction: row;
+          ion-col {
+              margin-top: -14px;
+          }
+          img {
+              width: 50px;
+              height: 50px;
+          }
+          ion-text {
+              color: #E53434;
+          }
+          ion-label {
+              font-size: 13px;
+              color: #A09D9D;
+          }
+      }
+    }
+  
+  }
+  
+  .cabecalho {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ion-icon {
+        font-size: 20px;
+    }
+  }

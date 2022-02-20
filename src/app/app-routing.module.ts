@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'welcome',
+    redirectTo: 'monitoramento',
     pathMatch: 'full'
   },
   {
@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'sigup',
     loadChildren: () => import('./screen/sigup/sigup.module').then( m => m.SigupPageModule)
+  },
+  {
+    path: 'monitoramento',
+    loadChildren: () => import('./screen/monitoramento/monitoramento.module').then( m => m.MonitoramentoPageModule)
   },
 ];
 
