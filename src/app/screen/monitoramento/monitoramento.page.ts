@@ -9,7 +9,14 @@ export class MonitoramentoPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  public onAvancarMes() {
+    console.log("onProximoMes...");    
+  }
+
+  public onRetornarMes() {
+    console.log("onRetornarMes...");    
   }
 
 }

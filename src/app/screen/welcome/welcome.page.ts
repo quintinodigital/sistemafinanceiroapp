@@ -11,12 +11,4 @@ export class WelcomePage implements OnInit {
 
   ngOnInit() { }
 
-  public onAvancarMes() {
-    console.log("onProximoMes...");    
-  }
-
-  public onRetornarMes() {
-    console.log("onRetornarMes...");    
-  }
-
 }
