@@ -9,3 +9,10 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 @import url("./theme/font.scss");
+
+ion-button {
+    height: 50px;
+    text-transform: initial;
+    --background: linear-gradient(90deg, #0099DE, #004F8E);
+    --border-radius: 16px;
+  }

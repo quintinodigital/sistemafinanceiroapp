@@ -1,0 +1,2 @@
+-- Build para Android
+ionic capacitor build android --no-open
